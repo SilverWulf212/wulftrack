@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Wulftrack mark: geometric wolf head -->
+  <g fill="#5B6CF5">
+    <polygon points="146,206 154,104 232,178"/>
+    <polygon points="366,206 358,104 280,178"/>
+    <polygon points="256,150 374,212 330,360 256,432 182,360 138,212"/>
+  </g>
+  <g fill="#0C1220">
+    <polygon points="206,250 246,250 226,286"/>
+    <polygon points="266,250 306,250 286,286"/>
+    <polygon points="236,356 276,356 256,398"/>
+  </g>
+</svg>
