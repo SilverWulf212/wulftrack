@@ -16,8 +16,8 @@ export function ProductUpdatesFallback(props: TProductUpdatesFallbackProps) {
   // derived values
   const changelogUrl =
     variant === "cloud"
-      ? "https://plane.so/changelog?category=cloud"
-      : "https://plane.so/changelog?category=self-hosted";
+      ? "https://github.com/SilverWulf212/wulftrack"
+      : "https://github.com/SilverWulf212/wulftrack";
 
   return (
     <div className="py-8">

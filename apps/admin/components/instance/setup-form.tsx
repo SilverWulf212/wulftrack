@@ -355,7 +355,7 @@ export function InstanceSetupForm() {
                 Allow Wulftrack to anonymously collect usage events.{" "}
                 <a
                   tabIndex={-1}
-                  href="https://developers.plane.so/self-hosting/telemetry"
+                  href="https://github.com/SilverWulf212/wulftrack"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-blue-500 hover:text-blue-600 flex-shrink-0 text-13 font-medium"

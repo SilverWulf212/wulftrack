@@ -102,7 +102,7 @@ export const meta: Route.MetaFunction = () => [
     property: "og:description",
     content: "Open-source project management tool to manage work items, cycles, and product roadmaps easily",
   },
-  { property: "og:url", content: "https://app.plane.so/" },
+  { property: "og:url", content: "https://github.com/SilverWulf212/wulftrack" },
   { property: "og:image", content: ogImage },
   { property: "og:image:width", content: "1200" },
   { property: "og:image:height", content: "630" },

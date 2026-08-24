@@ -14,8 +14,8 @@ interface TermsAndConditionsProps {
 
 // Constants for better maintainability
 const LEGAL_LINKS = {
-  termsOfService: "https://plane.so/legals/terms-and-conditions",
-  privacyPolicy: "https://plane.so/legals/privacy-policy",
+  termsOfService: "https://github.com/SilverWulf212/wulftrack",
+  privacyPolicy: "https://github.com/SilverWulf212/wulftrack",
 } as const;
 
 const MESSAGES = {

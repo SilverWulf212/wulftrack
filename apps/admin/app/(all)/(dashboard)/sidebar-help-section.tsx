@@ -21,12 +21,12 @@ import { useInstance, useTheme } from "@/hooks/store";
 const helpOptions = [
   {
     name: "Documentation",
-    href: "https://docs.plane.so/",
+    href: "https://github.com/SilverWulf212/wulftrack",
     Icon: PageIcon,
   },
   {
     name: "Join our Forum",
-    href: "https://forum.plane.so",
+    href: "https://github.com/SilverWulf212/wulftrack",
     Icon: MessageSquare,
   },
   {
