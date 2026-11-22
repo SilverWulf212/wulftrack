@@ -73,8 +73,8 @@ docker run --name myaio --rm -it \
     -e REDIS_URL=redis://${MYIP}:16379 \
     -e AMQP_URL=amqp://plane:plane@${MYIP}:15673/plane \
     -e AWS_REGION=us-east-1 \
-    -e AWS_ACCESS_KEY_ID=5MV45J9NF5TEFZWYCRAX \
-    -e AWS_SECRET_ACCESS_KEY=7xMqAiAHsf2UUjMH+EwICXlyJL9TO30m8leEaDsL \
+    -e AWS_ACCESS_KEY_ID=your-access-key-id \
+    -e AWS_SECRET_ACCESS_KEY=your-secret-access-key \
     -e AWS_S3_BUCKET_NAME=plane-app \
     -e AWS_S3_ENDPOINT_URL=http://${MYIP}:19000 \
     -e FILE_SIZE_LIMIT=10485760 \
@@ -92,8 +92,8 @@ docker run --name myaio --rm -it \
 
 #### Security & Secrets
 
-- `SECRET_KEY`: Django secret key (default provided)
-- `LIVE_SERVER_SECRET_KEY`: Live server secret (default provided)
+- `SECRET_KEY`: Django secret key (required, must be unique and private)
+- `LIVE_SERVER_SECRET_KEY`: Live server secret (required, must be unique and private)
 
 #### File Handling
 
